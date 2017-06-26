@@ -1,0 +1,2 @@
+"CategoryID"	"ParentCategoryID"
+"Swim Flash Sale 3.19"	""
