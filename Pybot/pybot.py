@@ -29,7 +29,7 @@ for submission in subreddit.hot(limit=5):
     if submission.id not in posts_replied_to:
         # phrase or word to monitor for
         if re.search("python", submission.title, re.IGNORECASE) or re.search("test", submission.title, re.IGNORECASE):
-            # submission.reply("I'm a real boy!")
+            submission.reply("I'm a real boy!")
 
             print("!!! Pybot replying to : " + submission.title + ". !!!\n")
 
